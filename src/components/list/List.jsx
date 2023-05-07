@@ -1,7 +1,15 @@
-import "./list.css";
+// import ChatList from "./chatList/ChatList";
+import UserInfo from './userInfo/UserInfo'
+import './list.css'
+import ChatList from './chatList/ChatList'
 
-const List =()=>{
-    return (<div className="list">List</div>)
+const List = () => {
+  return (
+    <div className='list'>
+      <UserInfo />
+      <ChatList />
+    </div>
+  )
 }
 
-export default List;
+export default List

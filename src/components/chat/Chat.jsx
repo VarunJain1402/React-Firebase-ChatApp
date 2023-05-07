@@ -1,10 +1,10 @@
-import "./chat.css";
+import './chat.css'
 
-const Chat = () =>{
-    return(
-   <>
-    <div className="chat">chat</div>
+const Chat = () => {
+  return (
+    <>
+      <div className='chat'>chat</div>
     </>
-    )
+  )
 }
-export default Chat;
+export default Chat
