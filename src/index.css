@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 90vw;
+  width: 80vw;
   height: 90vh;
   /* giving backgorund color with a glass like effect with reducing the opacity */
   background-color: rgba(17, 25, 40, 0, 0.75);
