@@ -12,6 +12,11 @@ const Chat = () => {
     setOpen(false);
   };
 
+  const endRef = useRef(null);
+
+  useEffect(() => {
+    endRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, []);
   return (
     <div className="chat">
       <div className="top">
@@ -33,11 +38,12 @@ const Chat = () => {
        
           <div className="message own">
             <div className="texts">
-              <img src="" alt="" />
+              <img src="./info.jpg" alt="" />
             </div>
           </div>
         
       </div>
+      <div ref={endRef}></div>
       <div className="bottom">
         <div className="icons">
           <label htmlFor="file">
